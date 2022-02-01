@@ -1,43 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>C80</title>
-<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="main.js"></script>
-
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
+
 <body>
-<center>
-<h3 style="margin-top: 20px; margin-bottom: 20px; ">
-	GUEST LSIT 
-</h3>
 
-<div id="rows">
-<span>
-<input type="text" placeholder="Name of the guest" id="name_of_the_guests">
-<button id="submitsubmit" onclick="submit()">Submit</button>
-</span>
-<br>
-<br>
-<label id="nameofguestsss"></label>
-<br>
-<br>
-<h3>Guest list</h3>
-<button id="show" onclick="show()">Show</button>
-<span id="nameoftheguestsnotinorder"></span>
-<br>
-<br>
-<button id="sortedlist" onclick="sortlist()">Sort list</button>
-<span id="sortedlistspan"></span>
-<br>
-<br>
-<span>
-    <input id="searchforaname" placeholder="search for a name">
-    <button id="search_button" onclick="search()">Search for a name</button>
-</span>
+    <div class="container">
 
-</center>
+        <section id="me">
+            <h1>photos of me</h1>
+            <div class="line"></div>
+            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/AmAIOlod-80aGvVFcBdbfjebPGUlVaYjI8ECZcJtZks/embed"></iframe>
+            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/U9AQsuLnTixFr5caYUBM9qmkuaPCvmuWblFMcUPrC14/embed"></iframe>
+        </section>
 
-</script>
+        <h2> Here are some photos of me </h2>
+      
+
+        <div id="myCarousel" class="Carousen Slide">
+            <div class="Carousen-inner">
+                <div class="item active">
+                    <center>
+                            <img src="20201101_142113_HDR.jpg" class="image-responses">
+                        </a>
+                        <div class="Carousel-content">
+                            <p>This is me</p>
+                        </div>
+                    </center>
+                </div>
+
+
+                <div class="item">
+                    <center>
+                            <img src="wizard.PNG" class="image-responses">
+                        </a>
+                        <div class="Carousel-content">
+                            <p>Me</p>
+                        </div>
+                    </center>
+                </div>
+
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+        <h2> Click On The Play Store Apps To Explore</h2>
+        <h5>This games are bulid in play lab, click on the app to view
+        </h5>
+
+        <div id="myCarousel2" class="Carousen Slide">
+            <div class="Carousen-inner">
+                <div class="item active">
+                    <center>
+                        <a href="https://play.google.com/store/apps/details?id=com.whitehatjr.mahdi.pagerchatappv144" target="_blank">
+                            <img src="play%20store.PNG" class="image-responses">
+                        </a>
+                        <div class="Carousel-content">
+                            <p> Pager App</p>
+                        </div>
+                    </center>
+                </div>
+
+
+                <div class="item">
+                    <center>
+                        <a href="https://play.google.com/store/apps/details?id=com.gmail.niranjanapratibhapadman.healthappcopy" target="_blank">
+                            <img src="playstor2.PNG" class="image-responses">
+                        </a>
+                        <div class="Carousel-content">
+                            <p> Health app</p>
+                        </div>
+                    </center>
+                </div>
+
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+
+    </div>
+
+
+
 </body>
+
 </html>
